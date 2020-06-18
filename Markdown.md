@@ -15,7 +15,7 @@ replaces with a hard line break.
   - Entities: &amp;amp; = &amp;, &amp;copy; = &copy;, &amp;#35 = &#35;
 - Links: \[Link text](URI "Title")
   - Examples:
-    - \[Markdown cheat sheet](https://github.com/xebis/cheatsheets/Markdown.md "Absolute link") = [Markdown cheat sheet](https://github.com/xebis/cheatsheets/Markdown.md "Absolute link")
+    - \[Markdown cheat sheet](https://github.com/xebis/cheatsheets/blob/master/Markdown.md "Absolute link") = [Markdown cheat sheet](https://github.com/xebis/cheatsheets/blob/master/Markdown.md "Absolute link")
     - \[relative link without title](Markdown.md) = [relative link without title](Markdown.md)
   - Autolinks: http://example.com, \<http://example.com>, \<email@example.com>
   - Autolinks _(GitHub's extension)_: example.com email@example.com
@@ -30,8 +30,9 @@ replaces with a hard line break.
 - Lists: 1. numbered, could start by any integer, \*, -, + bulleted
 
   - Intendation is your friend
-  - [x] \[x\] Completed list item _(GitHub's extension)_
-  - [ ] \[ \] Incomplete list item _(GitHub's extension)_
+  - Todo lists, checklists:
+    - [x] - \[x\] Completed list item _(GitHub's extension)_
+    - [ ] - \[ \] Incomplete list item _(GitHub's extension)_
 
 ![Octocat](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
 
@@ -48,9 +49,7 @@ replaces with a hard line break.
 
 ````
 ```
-
 Code block
-
 ```
 ````
 
@@ -62,9 +61,7 @@ Add language after \`\`\` code block beginning to enable code highlighting
 
 ````
 ```javascript
-
 const multiline // JavaScript example
-
 ```
 ````
 
@@ -105,10 +102,10 @@ _(GitHub's extension):_ Some HTML elements are filtered out:
 ### Tables _(GitHub's extension)_
 
 ```
-\| Column | Left-aligned column | Center-aligned column | Right-aligned column |
-\| ------ | :------ | :------: | ------: |
-\| Row 1 | Left | Center | Right |
-\| **Nested** | *formatting* | `allowed` |
+| Column | Left-aligned column | Center-aligned column | Right-aligned column |
+| ------ | :------ | :------: | ------: |
+| Row 1 | Left | Center | Right |
+| **Nested** | *formatting* | `allowed` |
 ```
 
 Result:
@@ -118,7 +115,7 @@ Result:
 | Row 1      | Left                |        Center         |                Right |
 | **Nested** | _formatting_        |       `allowed`       |
 
-- At least three hyphens in each column of the header row
+- Include at least three hyphens in each column of the header row
 
 ## Sources
 
