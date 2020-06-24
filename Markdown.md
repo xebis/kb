@@ -12,7 +12,7 @@ A paragraph is separated by blank lines and could be single line or multiple lin
 replaces with a hard line break.
 
 - Inlines: **\*\*Strong emphasis\*\***, _\_emphasis\_ ,_ ~~\~\~strikethrough\~\~~~ _(GitHub's extension)_, `` `code` `` or ` ``code`` `
-  - Entities: &amp;amp; = &amp;, &amp;copy; = &copy;, &amp;#35 = &#35;
+  - Entities: &amp;amp; = &amp;, &amp;copy; = &copy;, &amp;#35 = &#35;, &amp;#2B21; = &#X2B21; (_See [WHATWG: Entity Reference](https://html.spec.whatwg.org/entities.json), UTF8 reference or ASCII reference_)
 - Links: \[Link text](URI "Title")
   - Examples:
     - \[Markdown cheat sheet](https://github.com/xebis/cheatsheets/blob/master/Markdown.md "Absolute link") = [Markdown cheat sheet](https://github.com/xebis/cheatsheets/blob/master/Markdown.md "Absolute link")
@@ -34,10 +34,11 @@ replaces with a hard line break.
     - [x] - \[x\] Completed list item _(GitHub's extension)_
     - [ ] - \[ \] Incomplete list item _(GitHub's extension)_
 
+- Images: \!\[Alt](source "Title"), e.g.: \!\[Octocat](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
+
 ![Octocat](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
 
-- Images: \!\[Alt](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
-- [Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :+1:
+- [Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :muscle::+1::wink:
 - Escape character \ for { \* \_ \` \~ \[ } in text and { \# \- } at the line beginning
 - Thematic break: \*\*\* --- \_\_\_ (three or more characters)
 
@@ -49,55 +50,51 @@ replaces with a hard line break.
 
 ````
 ```
-Code block
+Code block, ~~~ works as well
 ```
 ````
 
-Result:
+Or (please note 4 spaces at the beginning):
 
-    Code block
+        Code block
 
-Add language after \`\`\` code block beginning to enable code highlighting
+Add language after ``` or ~~~ code block beginning to enable code highlighting
 
+````javascript
+// Start with ```javascript
+const dummy = () => {
+  /* I do nothing */
+};
 ````
-```javascript
-const multiline // JavaScript example
-```
-````
-
-Result:
-
-```javascript
-const multiline // JavaScript example
-```
 
 ### HTML
 
-```
-<del>
-
-*Deleted!*
-
-</del>
+```html
+<p>
+  <strong>_I am strong!_</strong> **Nested** *formatting* does not `work` here.
+</p>
 ```
 
-<del>
+<p>
+  <strong>_I am strong!_</strong> **Nested** *formatting* does not `work` here.
+</p>
 
-_Deleted!_
+```html
+<p>
+  <strong>_I am strong!_</strong>
 
-</del>
+  **Nested** _formatting_ `works` when separated from HTML tags by empty line.
+</p>
+```
 
-_(GitHub's extension):_ Some HTML elements are filtered out:
+<p>
+  <strong>_I am strong!_</strong>
 
-- \<title>
-- \<textarea>
-- \<style>
-- \<xmp>
-- \<iframe>
-- \<noembed>
-- \<noframes>
-- \<script>
-- \<plaintext>
+**Nested** _formatting_ `works` when separated from HTML tags by empty line.
+
+</p>
+
+_(GitHub's extension):_ Some HTML elements are filtered out: \<title> \<textarea> \<style> \<xmp> \<iframe> \<noembed> \<noframes> \<script> \<plaintext>
 
 ### Tables _(GitHub's extension)_
 
@@ -105,7 +102,7 @@ _(GitHub's extension):_ Some HTML elements are filtered out:
 | Column | Left-aligned column | Center-aligned column | Right-aligned column |
 | ------ | :------ | :------: | ------: |
 | Row 1 | Left | Center | Right |
-| **Nested** | *formatting* | `allowed` |
+| **Nested** | *formatting* | `works` |
 ```
 
 Result:
@@ -113,7 +110,7 @@ Result:
 | Column     | Left-aligned column | Center-aligned column | Right-aligned column |
 | ---------- | :------------------ | :-------------------: | -------------------: |
 | Row 1      | Left                |        Center         |                Right |
-| **Nested** | _formatting_        |       `allowed`       |
+| **Nested** | _formatting_        |        `works`        |
 
 - Include at least three hyphens in each column of the header row
 
@@ -126,4 +123,5 @@ Result:
 - [GitHub Doc: Creating and highlighting code blocks](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks)
 - [Linguist Doc: Syntax highlighting keywords](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 - [GitHub Doc: Autolinked references and URLs](https://help.github.com/en/github/writing-on-github/autolinked-references-and-urls)
+- [WHATWG: Entity Reference](https://html.spec.whatwg.org/entities.json)
 - [GitHub / @ikatyang: Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
