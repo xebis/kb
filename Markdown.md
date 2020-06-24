@@ -87,17 +87,7 @@ _Deleted!_
 
 </del>
 
-_(GitHub's extension):_ Some HTML elements are filtered out:
-
-- \<title>
-- \<textarea>
-- \<style>
-- \<xmp>
-- \<iframe>
-- \<noembed>
-- \<noframes>
-- \<script>
-- \<plaintext>
+_(GitHub's extension):_ Some HTML elements are filtered out: \<title> \<textarea> \<style> \<xmp> \<iframe> \<noembed> \<noframes> \<script> \<plaintext>
 
 ### Tables _(GitHub's extension)_
 
