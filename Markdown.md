@@ -70,10 +70,29 @@ const dummy = () => {
 ### HTML
 
 ```html
-<p><del>_Deleted!_</del> **Nested** *formatting* `works`.</p>
+<p>
+  <strong>_I am strong!_</strong> **Nested** *formatting* does not `work` here.
+</p>
 ```
 
-<p><del>_Deleted!_</del> **Nested** _formatting_ `works`.</p>
+<p>
+  <strong>_I am strong!_</strong> **Nested** *formatting* does not `work` here.
+</p>
+
+```html
+<p>
+  <strong>_I am strong!_</strong>
+
+  **Nested** _formatting_ `works` when separated from HTML tags by empty line.
+</p>
+```
+
+<p>
+  <strong>_I am strong!_</strong>
+
+**Nested** _formatting_ `works` when separated from HTML tags by empty line.
+
+</p>
 
 _(GitHub's extension):_ Some HTML elements are filtered out: \<title> \<textarea> \<style> \<xmp> \<iframe> \<noembed> \<noframes> \<script> \<plaintext>
 
