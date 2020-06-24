@@ -34,10 +34,11 @@ replaces with a hard line break.
     - [x] - \[x\] Completed list item _(GitHub's extension)_
     - [ ] - \[ \] Incomplete list item _(GitHub's extension)_
 
+- Images: \!\[Alt](source "Title"), e.g.: \!\[Octocat](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
+
 ![Octocat](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
 
-- Images: \!\[Alt](https://techbootcamp.github.io/book/images/depl/github-logo-transparent.jpg "Octocat")
-- [Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :+1:
+- [Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) :muscle::+1::wink:
 - Escape character \ for { \* \_ \` \~ \[ } in text and { \# \- } at the line beginning
 - Thematic break: \*\*\* --- \_\_\_ (three or more characters)
 
