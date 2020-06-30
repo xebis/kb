@@ -15,8 +15,6 @@ node --v8-options
 
 - `assert`, `buffer`, `child_process`, `cluster`, `console`, `crypto`, `debugger`, `dgram`, `dns`, `events`, `fs`, `http`, `http2`, `https`, `net`, `os`, `path`, `perf_hooks`, `process`, `querystring`, `readline`, `repl`, `stream`, `string_decoder`, `timers`, `tls`, `tty`, `url`, `util`, `v8`, `vm`, `worker_threads`, `zlib`
 
-## Modules
-
 ## Package Management (npm)
 
 ```bash
