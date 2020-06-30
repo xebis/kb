@@ -22,7 +22,8 @@ node --v8-options
 ```bash
 npm install npm@latest -g # Install latest stable release of npm
 
-npm [install | i] [<package_name> | <@scope>/<package_name> | <package_name>@<tag>] # Install package, creates ./node_modules directory
+# Install package, creates ./node_modules directory
+npm [install | i] [<package_name> | <@scope>/<package_name> | <package_name>@<tag>]
 
 npm outdated # List outdated packages
 
@@ -56,7 +57,11 @@ npm [run-script | run] <command> # Run script
 npm [search | find | s | se] # Search for packages
 npm [[re]start | stop] [-- <args>] # Run restart, start or stop script
 npm [test | tst | t] [-- <args>] # Test a package
-npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git] [-m "Commit message with version %s"] # Bump package version, write to package.json, package-lock.json and npm-shrinkwrap.json, it will also create a version commit and tag
+
+ # Bump package version, write to package.json, package-lock.json and npm-shrinkwrap.json
+ # If package is in git it will also create a version commit and tag
+npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] \
+| from-git] [-m "Commit message with version %s"]
 ```
 
 ### Packages
