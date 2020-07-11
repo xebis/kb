@@ -17,7 +17,7 @@ npx create-next-app
 - `[src/]pages` - a page, `**/*.[js | jsx | ts | tsx]` - a React component
 - `[src]/pages/_app.[js | jsx | ts | tsx]` - custom `App`
   - imports `import 'path/to/styles.css'` allowed only here
-- `[src]/pages/_[document | error].[js | jsx | ts | tsx]` - custom `App`
+- `[src]/pages/[_[document | error] | 404].[js | jsx | ts | tsx]` - custom `Document`, `Error` or 404 page
 - `**/[name].module.[css | scss | sass | less | styl]` - CSS module, Sass module _(with configuration)_, Less and Stylus _(with plugin)_
 - `[src]/pages/api/*` - an API handler `(req, res) => {...}`
 - `public` - mapped to `/`, static assets
