@@ -9,11 +9,11 @@ A collection of concentrated knowledge.
 ### JavaScript
 
 - [Node.js](Node.js.md)
+- [Next.js](Next.js.md)
 
 ### TODO
 
 - [JavaScript](JavaScript.md)
-- [Next.js](Next.js.md)
 
 ## Other Sources
 
