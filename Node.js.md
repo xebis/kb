@@ -88,6 +88,12 @@ npm init # Create package.json
 - `engines`, `os`, `cpu` specifies version of node, os or cpu
 - `private: true` won't be published
 
+## See Also
+
+### Cheat Sheets
+
+- [JavaScript Cheat Sheet](JavaScript.md)
+
 ## Sources
 
 - [Node.js: Documentation](https://nodejs.org/api/)

@@ -37,3 +37,7 @@ import myDefault, { name1, name2 } from "mylib"; // combined default and name im
   <!-- by default strict mode, module scope, without this, asynchronous, with declarative and programmatic imports -->
 </script>
 ```
+
+## Sources
+
+- [Dr. Axel Rauschmayer - Exploring ES6](https://exploringjs.com/es6/index.html)
