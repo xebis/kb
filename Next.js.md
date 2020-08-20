@@ -130,6 +130,11 @@ return (<><style jsx>element { color: red }</style><style global jsx>body { colo
 
 - [Next.js - Code Elimination](https://next-code-elimination.now.sh/)
 
+### Cheat Sheets
+
+- [JavaScript Cheat Sheet](JavaScript.md)
+- [Node.js Cheat Sheet](Node.js.md)
+
 ## Sources
 
 - [Next.js - Documentation](https://nextjs.org/docs/getting-started)

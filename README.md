@@ -5,15 +5,12 @@ A collection of concentrated knowledge.
 ## Crafted
 
 - [Markdown](Markdown.md)
-
-### JavaScript
-
+- [Next.js](Next.js.md)
 - [Node.js](Node.js.md)
 
-### TODO
+### Unfinished
 
 - [JavaScript](JavaScript.md)
-- [Next.js](Next.js.md)
 
 ## Other Sources
 
