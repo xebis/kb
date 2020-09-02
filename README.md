@@ -7,6 +7,7 @@ A collection of concentrated knowledge.
 - [Markdown](Markdown.md)
 - [Next.js](Next.js.md)
 - [Node.js](Node.js.md)
+- [Next.js](Next.js.md)
 
 ### Unfinished
 
