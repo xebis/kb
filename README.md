@@ -5,13 +5,13 @@ A collection of concentrated knowledge.
 ## Crafted
 
 - [Markdown](Markdown.md)
-- [Next.js](Next.js.md)
 - [Node.js](Node.js.md)
 - [Next.js](Next.js.md)
 
 ### Unfinished
 
 - [JavaScript](JavaScript.md)
+- [React](React.md)
 
 ## Other Sources
 
