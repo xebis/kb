@@ -10,6 +10,7 @@ A collection of concentrated knowledge.
 
 ### Unfinished
 
+- [Go](Go.md)
 - [JavaScript](JavaScript.md)
 - [React](React.md)
 
