@@ -16,6 +16,7 @@ A collection of concentrated knowledge.
 
 ### Unfinished
 
+- [Ansible][ansible.md]
 - [Go](Go.md)
 - [JavaScript](JavaScript.md)
 - [Linux](Linux.md)
