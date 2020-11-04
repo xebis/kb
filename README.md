@@ -10,6 +10,7 @@ A collection of concentrated knowledge.
 
 ### Unfinished
 
+- [Ansible][Ansible.md]
 - [JavaScript](JavaScript.md)
 - [React](React.md)
 
