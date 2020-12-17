@@ -2,7 +2,11 @@
 
 **This** cheat sheet **is NOT complete!**
 
-## GNU Tools
+## Tools
+
+```bash
+watch -d -n 60 cmd # watch - run repeatedly cmd every 60 seconds and highlight differences
+```
 
 ## Disk Tools
 
