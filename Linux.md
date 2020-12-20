@@ -5,7 +5,9 @@
 ## Tools
 
 ```bash
-watch -d -n 60 cmd # watch - run repeatedly cmd every 60 seconds and highlight differences
+time cmd args... # time - run cmd and summarize system resource usage
+watch -d -n 60 cmd args... # watch - run repeatedly cmd every 60 seconds and highlight differences
+cmd | xclip -sel clip # xclip - copy to clipboard
 ```
 
 ## Disk Tools
