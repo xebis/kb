@@ -12,6 +12,7 @@ A collection of concentrated knowledge.
 
 - [JavaScript](JavaScript.md)
 - [React](React.md)
+- [C#](C#.md)
 
 ## Other Sources
 
