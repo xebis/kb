@@ -4,6 +4,12 @@ A collection of concentrated knowledge.
 
 ## Crafted
 
+### Applications
+
+- [Shortcuts.md](Shortcuts)
+
+### Technologies
+
 - [Markdown](Markdown.md)
 - [Node.js](Node.js.md)
 - [Next.js](Next.js.md)
