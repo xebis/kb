@@ -24,7 +24,7 @@
   - Cursor move to center `Meta+F6`, to focus `Meta+F5`
 - **Applications** **Dolphin** `Meta+E`, **Emoji Selector** `Meta+.`, **Konsole** `Ctrl+Alt+T`, **System Activity** `Ctrl+Esc`
   - **KRunner** `Alt+Space`, `Alt+F2`, from clipboard (primary) `Alt+Shift+F2`
-    - **Web shortcuts**: Google `gg:query`, YouTube `yt:query`, Wikipedia: `wp:query`
+    - **Web shortcuts**: Amazon: `amz:query`, Duck Duck Go: `dd:query`, Facebook `fb:query`, GitHub/GitLab `gh/gt:query`, Google `gg:query`, Wikipedia: `wp:query`, Wolfram Alpha: `wa:query`, YouTube `yt:query`
   - **Spectacle** `Print`, current winddow `Meta+Print`, entire desktop `Shift+Print`, rectangle `Meta+Shift+Print`
 - **Desktops** show `Meta+D`, `Ctrl+F12`, grid `Ctrl+F8`, switch to desktop 1-… `Ctrl+F1` …
   - Zoom in `Meta+=`, out `Meta+-`
