@@ -28,6 +28,10 @@ A collection of concentrated knowledge.
 - [C#](Cheat-Sheets/C#.md)
 - [PowerShell](Cheat-Sheets/PowerShell.md)
 
+## How-tos
+
+- [Git, GitHub, GitLab](How-Tos/Git-GitHub-GitLab.md)
+
 ## Other Sources
 
 ### Collections
