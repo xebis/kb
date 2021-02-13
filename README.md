@@ -21,6 +21,8 @@ A collection of concentrated knowledge.
 - [JavaScript](JavaScript.md)
 - [Linux](Linux.md)
 - [React](React.md)
+- [C#](C#.md)
+- [PowerShell](PowerShell.md)
 
 ## Other Sources
 
