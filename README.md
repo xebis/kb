@@ -16,6 +16,7 @@ A collection of concentrated knowledge.
 
 ### Unfinished
 
+- [Go](Go.md)
 - [JavaScript](JavaScript.md)
 - [Linux](Linux.md)
 - [React](React.md)
