@@ -1,5 +1,7 @@
 # Go
 
+**This** cheat sheet **is NOT complete!**
+
 ## Commands
 
 ```shell
