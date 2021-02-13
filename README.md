@@ -1,28 +1,32 @@
-# Cheat Sheets
+# Knowledge Base
+
+A collection of useful how-tos, cheat sheets, etc.
+
+## Cheat Sheets
 
 A collection of concentrated knowledge.
 
-## Crafted
+### Crafted
 
-### Applications
+#### Applications
 
-- [Shortcuts.md](Shortcuts)
+- [Shortcuts.md](Cheat-Sheets/Shortcuts.md)
 
-### Technologies
+#### Technologies
 
-- [Markdown](Markdown.md)
-- [Node.js](Node.js.md)
-- [Next.js](Next.js.md)
+- [Markdown](Cheat-Sheets/Markdown.md)
+- [Node.js](Cheat-Sheets/Node.js.md)
+- [Next.js](Cheat-Sheets/Next.js.md)
 
-### Unfinished
+#### Unfinished
 
-- [Ansible][ansible.md]
-- [Go](Go.md)
-- [JavaScript](JavaScript.md)
-- [Linux](Linux.md)
-- [React](React.md)
-- [C#](C#.md)
-- [PowerShell](PowerShell.md)
+- [Ansible][cheat-sheets/ansible.md]
+- [Go](Cheat-Sheets/Go.md)
+- [JavaScript](Cheat-Sheets/JavaScript.md)
+- [Linux](Cheat-Sheets/Linux.md)
+- [React](Cheat-Sheets/React.md)
+- [C#](Cheat-Sheets/C#.md)
+- [PowerShell](Cheat-Sheets/PowerShell.md)
 
 ## Other Sources
 
