@@ -11,6 +11,7 @@ A collection of concentrated knowledge.
 ### Unfinished
 
 - [JavaScript](JavaScript.md)
+- [Linux](Linux.md)
 - [React](React.md)
 
 ## Other Sources
