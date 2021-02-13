@@ -1,5 +1,7 @@
 # C\#
 
+**This** cheat sheet **is NOT complete!**
+
 ## Syntax
 
 ### Keywords
