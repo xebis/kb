@@ -11,6 +11,7 @@ A collection of concentrated knowledge.
 #### Applications
 
 - [Shortcuts.md](Cheat-Sheets/Shortcuts.md)
+- [Visual Studio Code - Keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 #### Technologies
 
